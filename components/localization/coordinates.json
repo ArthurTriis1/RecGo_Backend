@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_localization_coordinates",
+  "info": {
+    "name": "Coordinates",
+    "icon": "location-arrow"
+  },
+  "options": {},
+  "attributes": {
+    "latitude": {
+      "type": "float",
+      "required": true
+    },
+    "longitude": {
+      "type": "float",
+      "required": true
+    }
+  }
+}

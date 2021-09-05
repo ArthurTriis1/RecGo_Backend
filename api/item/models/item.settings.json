@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items",
+  "info": {
+    "name": "Item",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "kind": {
+      "type": "enumeration",
+      "enum": [
+        "HEAD",
+        "FACE",
+        "ARM",
+        "LEG",
+        "HAND",
+        "BACKGROUND"
+      ],
+      "required": true,
+      "default": "HEAD"
+    },
+    "place": {
+      "via": "item",
+      "model": "place"
+    }
+  }
+}
