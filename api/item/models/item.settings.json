@@ -42,6 +42,41 @@
     "place": {
       "via": "item",
       "model": "place"
+    },
+    "users": {
+      "via": "storageItems",
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "headUsers": {
+      "via": "headItem",
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "armUsers": {
+      "via": "armItem",
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "backgorundUsers": {
+      "via": "backgroundItem",
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "legUsers": {
+      "via": "legItem",
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "faceUsers": {
+      "via": "faceItem",
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "handUsers": {
+      "via": "handItem",
+      "plugin": "users-permissions",
+      "collection": "user"
     }
   }
 }

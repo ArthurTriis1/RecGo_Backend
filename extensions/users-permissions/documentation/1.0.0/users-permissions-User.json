@@ -1250,6 +1250,597 @@
                 "type": "string"
               }
             }
+          },
+          "storageItems": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "name",
+                "image",
+                "kind"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "HEAD",
+                    "FACE",
+                    "ARM",
+                    "LEG",
+                    "HAND",
+                    "BACKGROUND"
+                  ]
+                },
+                "place": {
+                  "type": "string"
+                },
+                "users": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "headUsers": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "armUsers": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "backgorundUsers": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "legUsers": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "faceUsers": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "handUsers": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "headItem": {
+            "required": [
+              "id",
+              "name",
+              "image",
+              "kind"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "image": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "HEAD",
+                  "FACE",
+                  "ARM",
+                  "LEG",
+                  "HAND",
+                  "BACKGROUND"
+                ]
+              },
+              "place": {
+                "type": "string"
+              },
+              "users": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "headUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "armUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "backgorundUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "legUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "faceUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "handUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "armItem": {
+            "required": [
+              "id",
+              "name",
+              "image",
+              "kind"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "image": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "HEAD",
+                  "FACE",
+                  "ARM",
+                  "LEG",
+                  "HAND",
+                  "BACKGROUND"
+                ]
+              },
+              "place": {
+                "type": "string"
+              },
+              "users": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "headUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "armUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "backgorundUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "legUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "faceUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "handUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "backgroundItem": {
+            "required": [
+              "id",
+              "name",
+              "image",
+              "kind"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "image": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "HEAD",
+                  "FACE",
+                  "ARM",
+                  "LEG",
+                  "HAND",
+                  "BACKGROUND"
+                ]
+              },
+              "place": {
+                "type": "string"
+              },
+              "users": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "headUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "armUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "backgorundUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "legUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "faceUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "handUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "legItem": {
+            "required": [
+              "id",
+              "name",
+              "image",
+              "kind"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "image": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "HEAD",
+                  "FACE",
+                  "ARM",
+                  "LEG",
+                  "HAND",
+                  "BACKGROUND"
+                ]
+              },
+              "place": {
+                "type": "string"
+              },
+              "users": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "headUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "armUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "backgorundUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "legUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "faceUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "handUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "faceItem": {
+            "required": [
+              "id",
+              "name",
+              "image",
+              "kind"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "image": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "HEAD",
+                  "FACE",
+                  "ARM",
+                  "LEG",
+                  "HAND",
+                  "BACKGROUND"
+                ]
+              },
+              "place": {
+                "type": "string"
+              },
+              "users": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "headUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "armUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "backgorundUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "legUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "faceUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "handUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "handItem": {
+            "required": [
+              "id",
+              "name",
+              "image",
+              "kind"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "image": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "HEAD",
+                  "FACE",
+                  "ARM",
+                  "LEG",
+                  "HAND",
+                  "BACKGROUND"
+                ]
+              },
+              "place": {
+                "type": "string"
+              },
+              "users": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "headUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "armUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "backgorundUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "legUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "faceUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "handUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           }
         }
       },
@@ -1290,6 +1881,30 @@
             "default": false
           },
           "role": {
+            "type": "string"
+          },
+          "storageItems": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "headItem": {
+            "type": "string"
+          },
+          "armItem": {
+            "type": "string"
+          },
+          "backgroundItem": {
+            "type": "string"
+          },
+          "legItem": {
+            "type": "string"
+          },
+          "faceItem": {
+            "type": "string"
+          },
+          "handItem": {
             "type": "string"
           },
           "created_by": {

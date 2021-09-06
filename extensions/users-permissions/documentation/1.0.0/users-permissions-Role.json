@@ -561,6 +561,30 @@
                 "role": {
                   "type": "string"
                 },
+                "storageItems": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "headItem": {
+                  "type": "string"
+                },
+                "armItem": {
+                  "type": "string"
+                },
+                "backgroundItem": {
+                  "type": "string"
+                },
+                "legItem": {
+                  "type": "string"
+                },
+                "faceItem": {
+                  "type": "string"
+                },
+                "handItem": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },

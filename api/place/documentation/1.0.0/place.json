@@ -657,6 +657,48 @@
               "place": {
                 "type": "string"
               },
+              "users": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "headUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "armUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "backgorundUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "legUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "faceUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "handUsers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "published_at": {
                 "type": "string"
               },
